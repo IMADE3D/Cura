@@ -1,7 +1,6 @@
-Cura IMADE3D Edition
-====================
-
-This is a version of [Ultimaker Cura](https://github.com/ultimaker/cura) customised to support [IMADE3D JellyBOX 3D Printers](http://www.imade3d.com).
+Cura
+====
+This is the new, shiny frontend for Cura. Check [daid/LegacyCura](https://github.com/daid/LegacyCura) for the legacy Cura that everyone knows and loves/hates. We re-worked the whole GUI code at Ultimaker, because the old code started to become unmaintainable.
 
 Logging Issues
 ------------
@@ -21,8 +20,9 @@ Dependencies
 ------------
 * [Uranium](https://github.com/Ultimaker/Uranium) Cura is built on top of the Uranium framework.
 * [CuraEngine](https://github.com/Ultimaker/CuraEngine) This will be needed at runtime to perform the actual slicing.
+* [fdm_materials](https://github.com/Ultimaker/fdm_materials) Required to load a printer that has swappable material profiles.
 * [PySerial](https://github.com/pyserial/pyserial) Only required for USB printing support.
-* [python-zeroconf](https://github.com/jstasiak/python-zeroconf) Only required to detect mDNS-enabled printers
+* [python-zeroconf](https://github.com/jstasiak/python-zeroconf) Only required to detect mDNS-enabled printers.
 
 Build scripts
 -------------
@@ -51,13 +51,3 @@ Please check out [Wiki page](https://github.com/Ultimaker/Cura/wiki/Translating-
 License
 ----------------
 Cura is released under the terms of the LGPLv3 or higher. A copy of this license should be included with the software.
-
-Credits
-----------------
-Have a [look at the graph of current Cura contributors.](https://github.com/Ultimaker/Cura/graphs/contributors)
-
-**Cura IMADE3D EDITION Admins**
-
-* Vojtěch Žoha (@vojta-imade3d)
-* Filip Goč (@filipgoc)
-

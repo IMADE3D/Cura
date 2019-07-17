@@ -1,5 +1,5 @@
 // Copyright (c) 2018 Ultimaker B.V.
-// Uranium is released under the terms of the LGPLv3 or higher.
+// Cura is released under the terms of the LGPLv3 or higher.
 
 import QtQuick 2.7
 import QtQuick.Controls 1.4
@@ -15,7 +15,7 @@ Rectangle
     id: materialSlot
     property var material: null
     property var hovered: false
-    property var is_favorite: material != null ? material.is_favorite : false
+    property var is_favorite: material != null && material.is_favorite
 
     height: UM.Theme.getSize("favorites_row").height
     width: parent.width
@@ -41,6 +41,7 @@ Rectangle
         anchors.left: swatch.right
         anchors.verticalCenter: materialSlot.verticalCenter
         anchors.leftMargin: UM.Theme.getSize("narrow_margin").width
+        font.italic: Cura.MachineManager.currentRootMaterialId[Cura.ExtruderManager.activeExtruderIndex] == material.root_material_id
     }
     MouseArea
     {
@@ -69,24 +70,20 @@ Rectangle
         }
         onClicked:
         {
-            if (materialSlot.is_favorite) {
+            if (materialSlot.is_favorite)
+            {
                 base.materialManager.removeFavorite(material.root_material_id)
-                materialSlot.is_favorite = false
                 return
             }
             base.materialManager.addFavorite(material.root_material_id)
-            materialSlot.is_favorite = true
             return
         }
         style: ButtonStyle
         {
-            background: Rectangle
-            {
-                anchors.fill: parent
-                color: "transparent"
-            }
+            background: Item { }
         }
-        UM.RecolorImage {
+        UM.RecolorImage
+        {
             anchors
             {
                 verticalCenter: favorite_button.verticalCenter
@@ -94,8 +91,6 @@ Rectangle
             }
             width: UM.Theme.getSize("favorites_button_icon").width
             height: UM.Theme.getSize("favorites_button_icon").height
-            sourceSize.width: width
-            sourceSize.height: height
             color:
             {
                 if (favorite_button.hovered)

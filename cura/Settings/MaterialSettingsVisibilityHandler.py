@@ -13,10 +13,6 @@ class MaterialSettingsVisibilityHandler(UM.Settings.Models.SettingVisibilityHand
             "default_material_bed_temperature",
             "material_standby_temperature",
             #"material_flow_temp_graph",
-            "material_bed_temperature_layer_0",
-            "material_flow",
-            "material_flow_layer_0",
-            #"material_linear_advance_factor", # uncomment if you are using Linear Advance Plugin
             "cool_fan_speed",
             "retraction_amount",
             "retraction_speed",

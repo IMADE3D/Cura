@@ -1277,13 +1277,13 @@ msgstr "큐라를 시작할 수 없습니다"
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:89
 msgctxt "@label crash message"
 msgid ""
-"<p><b>Oops, Ultimaker Cura has encountered something that doesn't seem right.</p></b>\n"
+"<p><b>Oops, Cura IE has encountered something that doesn't seem right.</p></b>\n"
 "                    <p>We encountered an unrecoverable error during start up. It was possibly caused by some incorrect configuration files. We suggest to backup and reset your configuration.</p>\n"
 "                    <p>Backups can be found in the configuration folder.</p>\n"
 "                    <p>Please send us this Crash Report to fix the problem.</p>\n"
 "                "
 msgstr ""
-"<p> <b> 죄송합니다, Ultimaker Cura가 정상적이지 않습니다. </ p> </ b>\n"
+"<p> <b> 죄송합니다, Cura IE가 정상적이지 않습니다. </ p> </ b>\n"
 "                     <p> 시작할 때 복구 할 수없는 오류가 발생했습니다. 이 오류는 잘못된 구성 파일로 인해 발생할 수 있습니다. 설정을 백업하고 재설정하는 것이 좋습니다. </ p>\n"
 "                     <p> 백업은 설정 폴더에서 찾을 수 있습니다. </ p>\n"
 "                     <p> 문제를 해결하기 위해이 오류 보고서를 보내주십시오. </ p>\n"
@@ -2474,8 +2474,8 @@ msgstr "익명 데이터 수집에 대한 추가 정보"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:74
 msgctxt "@text:window"
-msgid "Ultimaker Cura collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
-msgstr "Ultimaker Cura는 인쇄 품질과 사용자 경험을 개선하기 위해 익명 데이터를 수집합니다. 공유되는 모든 데이터의 예는 다음과 같습니다:"
+msgid "Cura IE collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
+msgstr "Cura IE는 인쇄 품질과 사용자 경험을 개선하기 위해 익명 데이터를 수집합니다. 공유되는 모든 데이터의 예는 다음과 같습니다:"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:109
 msgctxt "@text:window"
@@ -4152,11 +4152,11 @@ msgstr "차세대 3D 인쇄 워크플로"
 msgctxt "@text"
 msgid ""
 "- Send print jobs to Ultimaker printers outside your local network\n"
-"- Store your Ultimaker Cura settings in the cloud for use anywhere\n"
+"- Store your Cura IE settings in the cloud for use anywhere\n"
 "- Get exclusive access to print profiles from leading brands"
 msgstr ""
 "- 인쇄 작업을 로컬 네트워크 외부의 Ultimaker 프린터로 전송하십시오\n"
-"- Ultimaker Cura 설정을 어디에서든 사용할 수 있도록 Cloud에 저장하십시오\n"
+"- Cura IE 설정을 어디에서든 사용할 수 있도록 Cloud에 저장하십시오\n"
 "- 유수 브랜드의 인쇄 프로파일에 대한 독점적 액세스 권한을 얻으십시오"
 
 #: /home/ruben/Projects/Cura/resources/qml/Account/GeneralOperations.qml:78
@@ -4464,8 +4464,8 @@ msgstr "&시장"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:24
 msgctxt "@title:window"
-msgid "Ultimaker Cura"
-msgstr "Ultimaker Cura"
+msgid "Cura IE"
+msgstr "Cura IE"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:232
 msgctxt "@label"
@@ -4597,7 +4597,7 @@ msgstr "3D 프린팅을 위한 엔드 투 엔트 솔루션."
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:84
 msgctxt "@info:credit"
 msgid ""
-"Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
+"Cura is developed by Ultimaker B.V. in cooperation with the community. Cura IE is developed by IMADE3D.\n"
 "Cura proudly uses the following open source projects:"
 msgstr ""
 "Cura는 커뮤니티와 공동으로 Ultimaker B.V.에 의해 개발되었습니다.\n"
@@ -4876,13 +4876,13 @@ msgstr "거절 및 닫기"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:24
 msgctxt "@label"
-msgid "Help us to improve Ultimaker Cura"
-msgstr "Ultimaker Cura를 개선하는 데 도움을 주십시오"
+msgid "Help us to improve Cura IE"
+msgstr "Cura IE를 개선하는 데 도움을 주십시오"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:57
 msgctxt "@text"
-msgid "Ultimaker Cura collects anonymous data to improve print quality and user experience, including:"
-msgstr "Ultimaker Cura는 인쇄 품질과 사용자 경험을 개선하기 위해 다음과 같은 익명 데이터를 수집합니다:"
+msgid "Cura IE collects anonymous data to improve print quality and user experience, including:"
+msgstr "Cura IE는 인쇄 품질과 사용자 경험을 개선하기 위해 다음과 같은 익명 데이터를 수집합니다:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:71
 msgctxt "@text"
@@ -4906,8 +4906,8 @@ msgstr "인쇄 설정"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:102
 msgctxt "@text"
-msgid "Data collected by Ultimaker Cura will not contain any personal information."
-msgstr "Ultimaker Cura가 수집하는 데이터에는 개인 정보가 포함되어 있지 않습니다."
+msgid "Data collected by Cura IE will not contain any personal information."
+msgstr "Cura IE가 수집하는 데이터에는 개인 정보가 포함되어 있지 않습니다."
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:103
 msgctxt "@text"
@@ -4916,8 +4916,8 @@ msgstr "추가 정보"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WhatsNewContent.qml:24
 msgctxt "@label"
-msgid "What's new in Ultimaker Cura"
-msgstr "Ultimaker Cura의 새로운 기능"
+msgid "What's new in Cura IE"
+msgstr "Cura IE의 새로운 기능"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddNetworkPrinterScrollView.qml:42
 msgctxt "@label"
@@ -4966,8 +4966,8 @@ msgstr "- 로컬 네트워크 외부의 Ultimaker 프린터로 인쇄 작업 전
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:97
 msgctxt "@text"
-msgid "- Store your Ultimaker Cura settings in the cloud for use anywhere"
-msgstr "- 어디에서든 사용할 수 있도록 클라우드에 Ultimaker Cura 설정 저장"
+msgid "- Store your Cura IE settings in the cloud for use anywhere"
+msgstr "- 어디에서든 사용할 수 있도록 클라우드에 Cura IE 설정 저장"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:100
 msgctxt "@text"
@@ -4986,15 +4986,15 @@ msgstr "계정 생성"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WelcomeContent.qml:29
 msgctxt "@label"
-msgid "Welcome to Ultimaker Cura"
-msgstr "Ultimaker Cura에 오신 것을 환영합니다"
+msgid "Welcome to Cura IE"
+msgstr "Cura IE에 오신 것을 환영합니다"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WelcomeContent.qml:47
 msgctxt "@text"
 msgid ""
 "Please follow these steps to set up\n"
-"Ultimaker Cura. This will only take a few moments."
-msgstr "Ultimaker Cura를 설정하려면 다음 단계를 따르십시오. 오래 걸리지 않습니다."
+"Cura IE. This will only take a few moments."
+msgstr "Cura IE를 설정하려면 다음 단계를 따르십시오. 오래 걸리지 않습니다."
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WelcomeContent.qml:58
 msgctxt "@button"
@@ -5749,11 +5749,11 @@ msgstr "Cura 프로파일 리더"
 #~ msgctxt "@text"
 #~ msgid ""
 #~ "- Send print jobs to Ultimaker printers outside your local network\n"
-#~ "- Store your Ultimaker Cura settings in the cloud for use anywhere\n"
+#~ "- Store your Cura IE settings in the cloud for use anywhere\n"
 #~ "- Get exclusive access to material profiles from leading brands"
 #~ msgstr ""
 #~ "- 인쇄 작업을 로컬 네트워크 외부의 Ultimaker 프린터로 전송하십시오\n"
-#~ "- Ultimaker Cura 설정을 어디에서든 사용할 수 있도록 Cloud에 저장하십시오\n"
+#~ "- Cura IE 설정을 어디에서든 사용할 수 있도록 Cloud에 저장하십시오\n"
 #~ "- 유수 브랜드의 재료 프로파일에 대한 독점적 액세스 권한을 얻으십시오"
 
 #~ msgctxt "@label:PrintjobStatus"

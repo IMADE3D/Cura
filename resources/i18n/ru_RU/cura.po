@@ -1277,13 +1277,13 @@ msgstr "Не удалось запустить Cura"
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:89
 msgctxt "@label crash message"
 msgid ""
-"<p><b>Oops, Ultimaker Cura has encountered something that doesn't seem right.</p></b>\n"
+"<p><b>Oops, Cura IE has encountered something that doesn't seem right.</p></b>\n"
 "                    <p>We encountered an unrecoverable error during start up. It was possibly caused by some incorrect configuration files. We suggest to backup and reset your configuration.</p>\n"
 "                    <p>Backups can be found in the configuration folder.</p>\n"
 "                    <p>Please send us this Crash Report to fix the problem.</p>\n"
 "                "
 msgstr ""
-"<p><b>В ПО Ultimaker Cura обнаружена ошибка.</p></b>\n"
+"<p><b>В ПО Cura IE обнаружена ошибка.</p></b>\n"
 "                    <p>Во время запуска обнаружена неустранимая ошибка. Возможно, она вызвана некоторыми файлами конфигурации с неправильными данными. Рекомендуется создать резервную копию конфигурации и сбросить ее.</p>\n"
 "                    <p>Резервные копии хранятся в папке конфигурации.</p>\n"
 "                    <p>Отправьте нам этот отчет о сбое для устранения проблемы.</p>\n"
@@ -2476,7 +2476,7 @@ msgstr "Дополнительная информация о сборе анон
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:74
 msgctxt "@text:window"
-msgid "Ultimaker Cura collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
+msgid "Cura IE collects anonymous data in order to improve the print quality and user experience. Below is an example of all the data that is shared:"
 msgstr "Ultimaker Cura собирает анонимные данные для повышения качества печати и улучшения взаимодействия с пользователем. Ниже приведен пример всех передаваемых данных:"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:109
@@ -4162,7 +4162,7 @@ msgstr "Рабочий процесс трехмерной печати след
 msgctxt "@text"
 msgid ""
 "- Send print jobs to Ultimaker printers outside your local network\n"
-"- Store your Ultimaker Cura settings in the cloud for use anywhere\n"
+"- Store your Cura IE settings in the cloud for use anywhere\n"
 "- Get exclusive access to print profiles from leading brands"
 msgstr ""
 "- Отправляйте задания печати на принтеры Ultimaker за пределами вашей локальной сети\n"
@@ -4480,8 +4480,8 @@ msgstr "&Магазин"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:24
 msgctxt "@title:window"
-msgid "Ultimaker Cura"
-msgstr "Ultimaker Cura"
+msgid "Cura IE"
+msgstr "Cura IE"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:232
 msgctxt "@label"
@@ -4615,7 +4615,7 @@ msgstr "Полное решение для 3D печати методом нап
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:84
 msgctxt "@info:credit"
 msgid ""
-"Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
+"Cura is developed by Ultimaker B.V. in cooperation with the community. Cura IE is developed by IMADE3D.\n"
 "Cura proudly uses the following open source projects:"
 msgstr ""
 "Cura разработана компанией Ultimaker B.V. совместно с сообществом.\n"
@@ -4894,12 +4894,12 @@ msgstr "Отклонить и закрыть"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:24
 msgctxt "@label"
-msgid "Help us to improve Ultimaker Cura"
+msgid "Help us to improve Cura IE"
 msgstr "Помогите нам улучшить Ultimaker Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:57
 msgctxt "@text"
-msgid "Ultimaker Cura collects anonymous data to improve print quality and user experience, including:"
+msgid "Cura IE collects anonymous data to improve print quality and user experience, including:"
 msgstr "Ultimaker Cura собирает анонимные данные для повышения качества печати и улучшения взаимодействия с пользователем, включая перечисленные ниже:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:71
@@ -4924,7 +4924,7 @@ msgstr "Параметры печати"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:102
 msgctxt "@text"
-msgid "Data collected by Ultimaker Cura will not contain any personal information."
+msgid "Data collected by Cura IE will not contain any personal information."
 msgstr "Данные, собранные Ultimaker Cura, не содержат каких-либо персональных данных."
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:103
@@ -4934,7 +4934,7 @@ msgstr "Дополнительная информация"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WhatsNewContent.qml:24
 msgctxt "@label"
-msgid "What's new in Ultimaker Cura"
+msgid "What's new in Cura IE"
 msgstr "Что нового в Ultimaker Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddNetworkPrinterScrollView.qml:42
@@ -4984,7 +4984,7 @@ msgstr "- Отправляйте задания печати на принтер
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:97
 msgctxt "@text"
-msgid "- Store your Ultimaker Cura settings in the cloud for use anywhere"
+msgid "- Store your Cura IE settings in the cloud for use anywhere"
 msgstr "- Храните параметры Ultimaker Cura в облаке, чтобы применять их из любого места"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:100
@@ -5004,14 +5004,14 @@ msgstr "Создать учетную запись"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WelcomeContent.qml:29
 msgctxt "@label"
-msgid "Welcome to Ultimaker Cura"
+msgid "Welcome to Cura IE"
 msgstr "Приветствуем в Ultimaker Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WelcomeContent.qml:47
 msgctxt "@text"
 msgid ""
 "Please follow these steps to set up\n"
-"Ultimaker Cura. This will only take a few moments."
+"Cura IE. This will only take a few moments."
 msgstr ""
 "Выполните указанные ниже действия для настройки\n"
 "Ultimaker Cura. Это займет немного времени."
@@ -5769,7 +5769,7 @@ msgstr "Чтение профиля Cura"
 #~ msgctxt "@text"
 #~ msgid ""
 #~ "- Send print jobs to Ultimaker printers outside your local network\n"
-#~ "- Store your Ultimaker Cura settings in the cloud for use anywhere\n"
+#~ "- Store your Cura IE settings in the cloud for use anywhere\n"
 #~ "- Get exclusive access to material profiles from leading brands"
 #~ msgstr ""
 #~ "- Отправляйте задания печати на принтеры Ultimaker за пределами вашей локальной сети\n"
@@ -8063,7 +8063,7 @@ msgstr "Чтение профиля Cura"
 #~ msgstr "Печатать через USB"
 
 #~ msgctxt "@info:credit"
-#~ msgid "Cura has been developed by Ultimaker B.V. in cooperation with the community."
+#~ msgid "Cura has been developed by Ultimaker B.V. and IMADE3D in cooperation with the community."
 #~ msgstr "Cura была разработана компанией Ultimaker B.V. в кооперации с сообществом."
 
 #~ msgctxt "@action:inmenu menubar:profile"

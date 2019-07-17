@@ -1,4 +1,20 @@
 [4.1.0]
+
+*IMADE3D-SPECIFIC CHANGES
+
+
+*Improved: Priming Line
+The old priming line (the line JellyBOX prints at the front of the plate as a part of the nozzle cleaning) was oversized and printed with 0.6mm layer height to make it easier for the filament to stick to the build plate and purge more efficiently. The downside was that the line was decidedly different from the normal first layer of 0.3mm, and thus could not be used for 1st layer height judgement. The NEW priming line is 0.3mm tall and longer.
+
+*Improved: Pre-Print Sequence
+The JellyBOX now preheats the bed to the actual print temperature first, and only then probes the bed (bed leveling sequence). Why? Our opinion and understanding of the forces involved has changed. Before, we kept the bed leveling temperature settings constant for all filaments (180°C/ 45°C) and rather low as it was designed to be a universal convenient. With the introduction of persistent leveling meshes, it makes more sense to prioritize precision as the shape of the built plate changes depending on the temperature (due to thermal expansion). The nozzle still preheats to a lower temperature first to minimize oozing while protecting the build plate.
+
+*Relative Purge/Prime Values
+The preheating temperatures and volumes of priming lines now depend on material and nozzle. This is in preparation for future material profiles. Due to limitations in slicer engines, some of the start gcode values used to be hard-coded, as in, same for all materials. This needed to be removed to gain flexibility.
+
+*CURA CHANGES
+
+
 *Draggable settings panels
 There was a lot of feedback from the 4.0 release about the collapsible settings panels. Based on this feedback, we decided to make them completely draggable. The print settings panel (prepare stage) and the color scheme panel (preview stage) can now be dragged and positioned anywhere in the 3D viewer. A double click of the header will reset each to their default position.
 

@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "name": "IMADE3D",
+        "inherits": "cura-light"
+    },
+
+    "colors": {
+
+        "layerview_ghost"            : [32,  32,  32,  96,  255],
+        "layerview_none"             : [255,  255,  255,  255],
+        "layerview_inset_0"          : [41,  115,  186,  255],
+        "layerview_inset_x"          : [50,  192,  191,  255],
+        "layerview_skin"             : [48,  191,  50,  255],
+        "layerview_support"          : [194,  194,  194,  255],
+        "layerview_skirt"            : [104,  41,  104,  255],
+        "layerview_infill"           : [206,  119,  48,  255],
+        "layerview_support_infill"   : [194,  194,  194,  255],
+        "layerview_move_combing"     : [174,  33,  33,  255],
+        "layerview_move_retraction"  : [174,  33,  33,  255],
+        "layerview_support_interface": [153,  153,  153,  255],
+        "layerview_prime_tower": [0, 255, 255, 255],
+        "layerview_nozzle": [181, 166, 66, 50]
+    }
+}

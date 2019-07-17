@@ -1,0 +1,8 @@
+{
+    "name": "Imade3dPrimingLineLengthPlugin",
+    "author": "fieldofview; & filip",
+    "version": "1.0.0",
+    "description": "Adds PrimingLineLength setting that are used in the start gcode",
+    "api": 5,
+    "supported_sdk_versions": ["5.0.0", "6.0.0"]
+}

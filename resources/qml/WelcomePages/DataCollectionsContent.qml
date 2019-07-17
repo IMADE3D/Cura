@@ -21,7 +21,7 @@ Item
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
         horizontalAlignment: Text.AlignHCenter
-        text: catalog.i18nc("@label", "Help us to improve Ultimaker Cura")
+        text: catalog.i18nc("@label", "Anonymous Data Tracking Consent")
         color: UM.Theme.getColor("primary_button")
         font: UM.Theme.getFont("huge")
         renderType: Text.NativeRendering
@@ -54,7 +54,7 @@ Item
                 width: parent.width
                 anchors.horizontalCenter: parent.horizontalCenter
                 horizontalAlignment: Text.AlignHCenter
-                text: catalog.i18nc("@text", "Ultimaker Cura collects anonymous data to improve print quality and user experience, including:")
+                text: catalog.i18nc("@text", "Cura by default collects user data to help improve<br>print quality and user experience, including:")
                 wrapMode: Text.WordWrap
                 font: UM.Theme.getFont("medium")
                 color: UM.Theme.getColor("text")
@@ -99,10 +99,19 @@ Item
                 horizontalAlignment: Text.AlignHCenter
                 text:
                 {
-                    var t = catalog.i18nc("@text", "Data collected by Ultimaker Cura will not contain any personal information.")
-                    var t2 = catalog.i18nc("@text", "More information")
-                    t += " <a href='https://notusedref'>" + t2 + "</a>"
-                    return t
+                    var full_text = ""
+                    var t = ""
+
+                    var t = catalog.i18nc("@text", "This data is anonymized and send to Ultimaker.")
+                    full_text += "<p>" + t + "</p>"
+
+                    var t = catalog.i18nc("@text", "*You can always disable tracking later under<br>`Settings > General > Privacy`")
+                    full_text += "<p>" + t + "</p>"
+
+                    var t = catalog.i18nc("@text", "Click here to learn more and/or <b>disable tracking</b> now.*")
+                    full_text += "<p><a href='https://notusedref'>" + t + "</a></p>"
+
+                    return full_text
                 }
                 textFormat: Text.RichText
                 wrapMode: Text.WordWrap

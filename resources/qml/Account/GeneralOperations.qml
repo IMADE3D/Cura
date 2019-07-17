@@ -31,16 +31,16 @@ Column
         color: UM.Theme.getColor("text")
     }
 
-    Label
-    {
-        id: generalInformation
-        anchors.horizontalCenter: parent.horizontalCenter
-        horizontalAlignment: Text.AlignHCenter
-        renderType: Text.NativeRendering
-        text: catalog.i18nc("@label", "The next generation 3D printing workflow")
-        font: UM.Theme.getFont("default_bold")
-        color: UM.Theme.getColor("text")
-    }
+    // Label
+    // {
+    //     id: generalInformation
+    //     anchors.horizontalCenter: parent.horizontalCenter
+    //     horizontalAlignment: Text.AlignHCenter
+    //     renderType: Text.NativeRendering
+    //     text: catalog.i18nc("@label", "The next generation 3D printing workflow")
+    //     font: UM.Theme.getFont("default_bold")
+    //     color: UM.Theme.getColor("text")
+    // }
 
     Label
     {
@@ -48,7 +48,7 @@ Column
         anchors.horizontalCenter: parent.horizontalCenter
         horizontalAlignment: Text.AlignLeft
         renderType: Text.NativeRendering
-        text: catalog.i18nc("@text", "- Send print jobs to Ultimaker printers outside your local network\n- Store your Ultimaker Cura settings in the cloud for use anywhere\n- Get exclusive access to print profiles from leading brands")
+        text: catalog.i18nc("@text", "- (All Printers) Backup/ Store your Cura settings in the cloud for use anywhere\n- (Ultimaker Only) Send print jobs to printers outside your network\n- (Ultimaker Only) Get access to additional print profiles")
         lineHeight: 1.4
         font: UM.Theme.getFont("default")
         color: UM.Theme.getColor("text")

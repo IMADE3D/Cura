@@ -21,7 +21,7 @@ UM.MainWindow
     id: base
 
     // Cura application window title
-    title: catalog.i18nc("@title:window", "Ultimaker Cura")
+    title: catalog.i18nc("@title:window", "Cura IMADE3D Edition")
     backgroundColor: UM.Theme.getColor("viewport_background")
 
     UM.I18nCatalog

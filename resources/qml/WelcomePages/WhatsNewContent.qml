@@ -9,7 +9,7 @@ import Cura 1.1 as Cura
 
 
 //
-// This component contains the content for the "What's new in Ultimaker Cura" page of the welcome on-boarding process.
+// This component contains the content for the "What's new in Cura IE" page of the welcome on-boarding process.
 //
 Item
 {
@@ -21,7 +21,7 @@ Item
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
         horizontalAlignment: Text.AlignHCenter
-        text: catalog.i18nc("@label", "What's new in Ultimaker Cura")
+        text: catalog.i18nc("@label", "What's new in Cura (IE)")
         color: UM.Theme.getColor("primary_button")
         font: UM.Theme.getFont("huge")
         renderType: Text.NativeRendering

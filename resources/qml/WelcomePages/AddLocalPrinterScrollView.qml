@@ -23,8 +23,8 @@ Item
                               : null
     // The currently active (expanded) section/category, where section/category is the grouping of local machine items.
     property string currentSection: preferredCategory
-    // By default (when this list shows up) we always expand the "Ultimaker" section.
-    property string preferredCategory: "Ultimaker"
+    // By default (when this list shows up) we always expand the "IMADE3D" section.
+    property string preferredCategory: "IMADE3D"
 
     property int maxItemCountAtOnce: 10  // show at max 10 items at once, otherwise you need to scroll.
 

@@ -41,10 +41,10 @@ Rectangle
                     {
                         return toolbox.pluginsShowcaseModel
                     }
-                    if (toolbox.viewCategory == "material")
-                    {
-                        return toolbox.materialsShowcaseModel
-                    }
+                    // if (toolbox.viewCategory == "material")
+                    // {
+                    //     return toolbox.materialsShowcaseModel
+                    // }
                 }
                 delegate: Loader
                 {

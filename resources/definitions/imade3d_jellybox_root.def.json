@@ -113,19 +113,19 @@
         ]
     },
     "overrides": {
-        "machine_gcode_flavor": { 
+        "machine_gcode_flavor": {
             "default_value": "RepRap (Marlin/Sprinter)"
         },
-        "material_diameter": { 
+        "material_diameter": {
             "default_value": 1.75
         },
         "material_print_temperature": {
             "minimum_value": "0"
         },
-        "machine_center_is_zero": { 
+        "machine_center_is_zero": {
             "default_value": false
         },
-        "machine_heated_bed": { 
+        "machine_heated_bed": {
             "default_value": true
         },
         "material_bed_temperature": {
@@ -138,6 +138,9 @@
         {
             "value": true,
             "enabled": true
+        },
+        "retraction_amount": {
+            "default_value": 1.5
         }
     }
 }

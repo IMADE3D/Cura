@@ -15,39 +15,39 @@ Item
     height: signInButton.height > accountWidget.height ? signInButton.height : accountWidget.height
     width: signInButton.width > accountWidget.width ? signInButton.width : accountWidget.width
 
-    Button
-    {
-        id: signInButton
+    // Button
+    // {
+    //     id: signInButton
 
-        anchors.verticalCenter: parent.verticalCenter
+    //     anchors.verticalCenter: parent.verticalCenter
 
-        text: catalog.i18nc("@action:button", "Sign in")
+    //     text: catalog.i18nc("@action:button", "Sign in")
 
-        height: Math.round(0.5 * UM.Theme.getSize("main_window_header").height)
-        onClicked: popup.opened ? popup.close() : popup.open()
-        visible: !loggedIn
+    //     height: Math.round(0.5 * UM.Theme.getSize("main_window_header").height)
+    //     onClicked: popup.opened ? popup.close() : popup.open()
+    //     visible: !loggedIn
 
-        hoverEnabled: true
+    //     hoverEnabled: true
 
-        background: Rectangle
-        {
-            radius: UM.Theme.getSize("action_button_radius").width
-            color: signInButton.hovered ? UM.Theme.getColor("primary_text") : UM.Theme.getColor("main_window_header_background")
-            border.width: UM.Theme.getSize("default_lining").width
-            border.color: UM.Theme.getColor("primary_text")
-        }
+    //     background: Rectangle
+    //     {
+    //         radius: UM.Theme.getSize("action_button_radius").width
+    //         color: signInButton.hovered ? UM.Theme.getColor("primary_text") : UM.Theme.getColor("main_window_header_background")
+    //         border.width: UM.Theme.getSize("default_lining").width
+    //         border.color: UM.Theme.getColor("primary_text")
+    //     }
 
-        contentItem: Label
-        {
-            id: label
-            text: signInButton.text
-            font: UM.Theme.getFont("default")
-            color: signInButton.hovered ? UM.Theme.getColor("main_window_header_background") : UM.Theme.getColor("primary_text")
-            width: contentWidth
-            verticalAlignment: Text.AlignVCenter
-            renderType: Text.NativeRendering
-        }
-    }
+    //     contentItem: Label
+    //     {
+    //         id: label
+    //         text: signInButton.text
+    //         font: UM.Theme.getFont("default")
+    //         color: signInButton.hovered ? UM.Theme.getColor("main_window_header_background") : UM.Theme.getColor("primary_text")
+    //         width: contentWidth
+    //         verticalAlignment: Text.AlignVCenter
+    //         renderType: Text.NativeRendering
+    //     }
+    // }
 
     Button
     {

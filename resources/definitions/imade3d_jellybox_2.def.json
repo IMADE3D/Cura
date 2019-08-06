@@ -20,9 +20,9 @@
       },
 
     "overrides": {
-        "gradual_infill_steps":{"default_value": 0},
-        "gradual_infill_step_height": {"default_value": 3},
-        "machine_head_with_fans_polygon": { "default_value": [[ 0, 0 ],[ 0, 0 ],[ 0, 0 ],[ 0, 0 ]]},
+        "gradual_infill_steps":{ "default_value": 0},
+        "gradual_infill_step_height": { "default_value": 3 },
+        "machine_head_with_fans_polygon": { "default_value": [[ 0, 0 ],[ 0, 0 ],[ 0, 0 ],[ 0, 0 ]] },
         "machine_name": { "default_value": "IMADE3D JellyBOX 2" },
         "machine_width": { "default_value": 180 },
         "machine_height": { "default_value": 145 },

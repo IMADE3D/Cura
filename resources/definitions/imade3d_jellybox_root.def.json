@@ -122,6 +122,7 @@
         "material_bed_temperature": { "minimum_value": "0" },
         "material_standby_temperature": { "minimum_value": "0" },
         "retraction_amount": { "default_value": 1.5 },
+        "machine_max_feedrate_z": { "default_value": 10 },
         "relative_extrusion":
         {
             "value": true,
